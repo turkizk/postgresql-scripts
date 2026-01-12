@@ -1,11 +1,12 @@
-# postgresql-scripts
-
-This repository contains advanced PostgreSQL queries and operational SQL scripts
-used in production support, incident resolution, and data corrections.
-
-## Contents
-- delivery/: delivery status updates and rollback scripts
-- cleanup/: data cleanup and consistency fixes
-- analysis/: performance checks and analysis queries
-
-⚠️ These queries are intended for experienced users and should be executed carefully in production environments.
+postgresql-scripts/
+├── README.md
+├── analysis/
+│   ├── delivery_performance_analysis.sql
+│   ├── courier_latency_p95.sql
+│   ├── merchant_volume_report.sql
+├── reporting/
+│   ├── daily_delivery_summary.sql
+│   ├── merchant_warehouse_report.sql
+├── investigation/
+│   ├── missing_barcode_analysis.sql
+│   ├── duplicate_order_detection.sql
