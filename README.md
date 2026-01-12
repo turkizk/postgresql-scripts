@@ -1,12 +1,17 @@
-postgresql-scripts/
-├── README.md
-├── analysis/
-│   ├── delivery_performance_analysis.sql
-│   ├── courier_latency_p95.sql
-│   ├── merchant_volume_report.sql
-├── reporting/
-│   ├── daily_delivery_summary.sql
-│   ├── merchant_warehouse_report.sql
-├── investigation/
-│   ├── missing_barcode_analysis.sql
-│   ├── duplicate_order_detection.sql
+# PostgreSQL Advanced SELECT Queries
+
+This repository contains advanced and real-world PostgreSQL **SELECT-only** queries.
+
+The focus is on:
+- Complex joins
+- Common Table Expressions (CTE)
+- Window functions
+- Aggregations and percentile-based analysis
+- Operational reporting and incident investigation
+
+All queries are written based on **production support and operational analysis** use cases.
+
+---
+
+## Repository Structure
+
