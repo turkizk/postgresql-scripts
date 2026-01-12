@@ -38,3 +38,5 @@ JOIN company c2
    AND c2.row_status = 'ACTIVE'
 WHERE c1.row_status = 'ACTIVE';
 
+
+
